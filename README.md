@@ -12,15 +12,14 @@ docker run -d --restart=always -p 3128:3128 -v ./.htpasswd_nginx:/usr/local/ngin
 
 ## Authentication
 
-For authentication use [apache2-utils]{https://docs.nginx.com/nginx/admin-guide/security-controls/configuring-http-basic-authentication/}.
+For authentication use [apache2-utils](https://docs.nginx.com/nginx/admin-guide/security-controls/configuring-http-basic-authentication/).
 
 For example `htpasswd -c ./.htpasswd my-user`
 
 ## The project is based on:
 
-- [ngx_http_proxy_connect_module]{https://github.com/chobits/ngx_http_proxy_connect_module}
+- [ngx_http_proxy_connect_module](https://github.com/chobits/ngx_http_proxy_connect_module)
  
-- [Issue 42]{https://github.com/chobits/ngx_http_proxy_connect_module/issues/42}
+- [Issue 42](https://github.com/chobits/ngx_http_proxy_connect_module/issues/42)
 
-- [Nginx forward proxy by hinata]{https://github.com/hinata/nginx-forward-proxy}
-
+- [Nginx forward proxy by hinata](https://github.com/hinata/nginx-forward-proxy)
